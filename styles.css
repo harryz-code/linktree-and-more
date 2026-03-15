@@ -196,77 +196,163 @@ body {
   /* Morse: .... . .-.. .-.. --- / .-- --- .-. .-.. -.. --..-- / .. / .- -- / .- / -... ..- .. .-.. -.. . .-. (hello world, i am a builder) */
   background: linear-gradient(
     90deg,
-    var(--text-secondary) 0 3px, transparent 3px 5px,
-    var(--text-secondary) 5px 8px, transparent 8px 10px,
-    var(--text-secondary) 10px 13px, transparent 13px 15px,
-    var(--text-secondary) 15px 18px, transparent 18px 22px,
-    var(--text-secondary) 22px 25px, transparent 25px 29px,
-    var(--text-secondary) 29px 32px, transparent 32px 34px,
-    var(--text-secondary) 34px 42px, transparent 42px 44px,
-    var(--text-secondary) 44px 47px, transparent 47px 49px,
-    var(--text-secondary) 49px 52px, transparent 52px 56px,
-    var(--text-secondary) 56px 59px, transparent 59px 61px,
-    var(--text-secondary) 61px 69px, transparent 69px 71px,
-    var(--text-secondary) 71px 74px, transparent 74px 76px,
-    var(--text-secondary) 76px 79px, transparent 79px 83px,
-    var(--text-secondary) 83px 91px, transparent 91px 93px,
-    var(--text-secondary) 93px 101px, transparent 101px 103px,
-    var(--text-secondary) 103px 111px, transparent 111px 117px,
-    var(--text-secondary) 117px 120px, transparent 120px 122px,
-    var(--text-secondary) 122px 130px, transparent 130px 132px,
-    var(--text-secondary) 132px 140px, transparent 140px 144px,
-    var(--text-secondary) 144px 152px, transparent 152px 154px,
-    var(--text-secondary) 154px 162px, transparent 162px 164px,
-    var(--text-secondary) 164px 172px, transparent 172px 176px,
-    var(--text-secondary) 176px 179px, transparent 179px 181px,
-    var(--text-secondary) 181px 189px, transparent 189px 191px,
-    var(--text-secondary) 191px 194px, transparent 194px 198px,
-    var(--text-secondary) 198px 201px, transparent 201px 203px,
-    var(--text-secondary) 203px 211px, transparent 211px 213px,
-    var(--text-secondary) 213px 216px, transparent 216px 218px,
-    var(--text-secondary) 218px 221px, transparent 221px 225px,
-    var(--text-secondary) 225px 233px, transparent 233px 235px,
-    var(--text-secondary) 235px 238px, transparent 238px 240px,
-    var(--text-secondary) 240px 243px, transparent 243px 247px,
-    var(--text-secondary) 247px 255px, transparent 255px 257px,
-    var(--text-secondary) 257px 265px, transparent 265px 267px,
-    var(--text-secondary) 267px 270px, transparent 270px 272px,
-    var(--text-secondary) 272px 275px, transparent 275px 277px,
-    var(--text-secondary) 277px 285px, transparent 285px 287px,
-    var(--text-secondary) 287px 295px, transparent 295px 301px,
-    var(--text-secondary) 301px 304px, transparent 304px 306px,
-    var(--text-secondary) 306px 309px, transparent 309px 315px,
-    var(--text-secondary) 315px 318px, transparent 318px 320px,
-    var(--text-secondary) 320px 328px, transparent 328px 332px,
-    var(--text-secondary) 332px 340px, transparent 340px 342px,
-    var(--text-secondary) 342px 350px, transparent 350px 356px,
-    var(--text-secondary) 356px 359px, transparent 359px 361px,
-    var(--text-secondary) 361px 369px, transparent 369px 373px,
-    var(--text-secondary) 373px 381px, transparent 381px 383px,
-    var(--text-secondary) 383px 386px, transparent 386px 388px,
-    var(--text-secondary) 388px 391px, transparent 391px 393px,
-    var(--text-secondary) 393px 396px, transparent 396px 400px,
-    var(--text-secondary) 400px 403px, transparent 403px 405px,
-    var(--text-secondary) 405px 408px, transparent 408px 410px,
-    var(--text-secondary) 410px 418px, transparent 418px 422px,
-    var(--text-secondary) 422px 425px, transparent 425px 427px,
-    var(--text-secondary) 427px 435px, transparent 435px 437px,
-    var(--text-secondary) 437px 440px, transparent 440px 442px,
-    var(--text-secondary) 442px 445px, transparent 445px 449px,
-    var(--text-secondary) 449px 452px, transparent 452px 454px,
-    var(--text-secondary) 454px 462px, transparent 462px 464px,
-    var(--text-secondary) 464px 467px, transparent 467px 469px,
-    var(--text-secondary) 469px 472px, transparent 472px 476px,
-    var(--text-secondary) 476px 484px, transparent 484px 486px,
-    var(--text-secondary) 486px 489px, transparent 489px 491px,
-    var(--text-secondary) 491px 494px, transparent 494px 498px,
-    var(--text-secondary) 498px 501px, transparent 501px 505px,
-    var(--text-secondary) 505px 508px, transparent 508px 510px,
-    var(--text-secondary) 510px 518px, transparent 518px 520px,
-    var(--text-secondary) 520px 523px, transparent 523px 527px
+    var(--border-strong) 0 3px, transparent 3px 5px,
+    var(--border-strong) 5px 8px, transparent 8px 10px,
+    var(--border-strong) 10px 13px, transparent 13px 15px,
+    var(--border-strong) 15px 18px, transparent 18px 22px,
+    var(--border-strong) 22px 25px, transparent 25px 29px,
+    var(--border-strong) 29px 32px, transparent 32px 34px,
+    var(--border-strong) 34px 42px, transparent 42px 44px,
+    var(--border-strong) 44px 47px, transparent 47px 49px,
+    var(--border-strong) 49px 52px, transparent 52px 56px,
+    var(--border-strong) 56px 59px, transparent 59px 61px,
+    var(--border-strong) 61px 69px, transparent 69px 71px,
+    var(--border-strong) 71px 74px, transparent 74px 76px,
+    var(--border-strong) 76px 79px, transparent 79px 83px,
+    var(--border-strong) 83px 91px, transparent 91px 93px,
+    var(--border-strong) 93px 101px, transparent 101px 103px,
+    var(--border-strong) 103px 111px, transparent 111px 117px,
+    var(--border-strong) 117px 120px, transparent 120px 122px,
+    var(--border-strong) 122px 130px, transparent 130px 132px,
+    var(--border-strong) 132px 140px, transparent 140px 144px,
+    var(--border-strong) 144px 152px, transparent 152px 154px,
+    var(--border-strong) 154px 162px, transparent 162px 164px,
+    var(--border-strong) 164px 172px, transparent 172px 176px,
+    var(--border-strong) 176px 179px, transparent 179px 181px,
+    var(--border-strong) 181px 189px, transparent 189px 191px,
+    var(--border-strong) 191px 194px, transparent 194px 198px,
+    var(--border-strong) 198px 201px, transparent 201px 203px,
+    var(--border-strong) 203px 211px, transparent 211px 213px,
+    var(--border-strong) 213px 216px, transparent 216px 218px,
+    var(--border-strong) 218px 221px, transparent 221px 225px,
+    var(--border-strong) 225px 233px, transparent 233px 235px,
+    var(--border-strong) 235px 238px, transparent 238px 240px,
+    var(--border-strong) 240px 243px, transparent 243px 247px,
+    var(--border-strong) 247px 255px, transparent 255px 257px,
+    var(--border-strong) 257px 265px, transparent 265px 267px,
+    var(--border-strong) 267px 270px, transparent 270px 272px,
+    var(--border-strong) 272px 275px, transparent 275px 277px,
+    var(--border-strong) 277px 285px, transparent 285px 287px,
+    var(--border-strong) 287px 295px, transparent 295px 301px,
+    var(--border-strong) 301px 304px, transparent 304px 306px,
+    var(--border-strong) 306px 309px, transparent 309px 315px,
+    var(--border-strong) 315px 318px, transparent 318px 320px,
+    var(--border-strong) 320px 328px, transparent 328px 332px,
+    var(--border-strong) 332px 340px, transparent 340px 342px,
+    var(--border-strong) 342px 350px, transparent 350px 356px,
+    var(--border-strong) 356px 359px, transparent 359px 361px,
+    var(--border-strong) 361px 369px, transparent 369px 373px,
+    var(--border-strong) 373px 381px, transparent 381px 383px,
+    var(--border-strong) 383px 386px, transparent 386px 388px,
+    var(--border-strong) 388px 391px, transparent 391px 393px,
+    var(--border-strong) 393px 396px, transparent 396px 400px,
+    var(--border-strong) 400px 403px, transparent 403px 405px,
+    var(--border-strong) 405px 408px, transparent 408px 410px,
+    var(--border-strong) 410px 418px, transparent 418px 422px,
+    var(--border-strong) 422px 425px, transparent 425px 427px,
+    var(--border-strong) 427px 435px, transparent 435px 437px,
+    var(--border-strong) 437px 440px, transparent 440px 442px,
+    var(--border-strong) 442px 445px, transparent 445px 449px,
+    var(--border-strong) 449px 452px, transparent 452px 454px,
+    var(--border-strong) 454px 462px, transparent 462px 464px,
+    var(--border-strong) 464px 467px, transparent 467px 469px,
+    var(--border-strong) 469px 472px, transparent 472px 476px,
+    var(--border-strong) 476px 484px, transparent 484px 486px,
+    var(--border-strong) 486px 489px, transparent 489px 491px,
+    var(--border-strong) 491px 494px, transparent 494px 498px,
+    var(--border-strong) 498px 501px, transparent 501px 505px,
+    var(--border-strong) 505px 508px, transparent 508px 510px,
+    var(--border-strong) 510px 518px, transparent 518px 520px,
+    var(--border-strong) 520px 523px, transparent 523px 527px
   );
   background-size: 527px 1px;
   background-repeat: no-repeat;
+}
+
+.blog-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(var(--space-unit) * 4);
+  margin-top: calc(var(--space-unit) * 4);
+}
+
+.blog-card {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  color: var(--text-primary);
+  transition:
+    background-color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.blog-card:hover {
+  background: #f8f9fa;
+  border-color: var(--border-strong);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.blog-card-cover {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
+.blog-cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-card--video-cover .blog-cover-img {
+  object-position: center 65%;
+}
+
+.blog-card-label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(var(--space-unit) * 3);
+  z-index: 1;
+  padding: 0 calc(var(--space-unit) * 3);
+  font-family: 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 1), 0 2px 6px rgba(0, 0, 0, 0.95), 0 4px 12px rgba(0, 0, 0, 0.9), 0 0 20px rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.02em;
+  opacity: 1;
+}
+
+.blog-card-meta {
+  position: absolute;
+  bottom: calc(var(--space-unit) * 2);
+  right: calc(var(--space-unit) * 2);
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  min-height: 28px;
+  padding: 0 calc(var(--space-unit) * 1.5);
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.92);
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  line-height: 1;
 }
 
 .link-thumb {
